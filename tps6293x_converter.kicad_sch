@@ -1388,7 +1388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0600cbf8-e788-438a-a428-5de25fe5ad63")
-		(property "Reference" "C8"
+		(property "Reference" "C4"
 			(at 111.76 27.9462 0)
 			(effects
 				(font
@@ -1442,7 +1442,7 @@
 		(instances
 			(project ""
 				(path "/95204d1f-789d-4da7-bef1-75eceb67dba1/45d4dffe-c9fa-423c-b487-a1b451d8857b"
-					(reference "C8")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -1527,7 +1527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3957be01-0ac5-4ad5-b315-fa2a771302b6")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 139.7 45.7199 0)
 			(effects
 				(font
@@ -1581,7 +1581,7 @@
 		(instances
 			(project "project-hw-2-18650"
 				(path "/95204d1f-789d-4da7-bef1-75eceb67dba1/45d4dffe-c9fa-423c-b487-a1b451d8857b"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1724,15 +1724,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 151.13 40.64 0)
+		(at 163.83 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "875a0232-2a55-43ac-a1fb-7123237c8b08")
-		(property "Reference" "C5"
-			(at 154.94 39.3699 0)
+		(property "Reference" "C6"
+			(at 167.64 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1741,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 154.94 41.9099 0)
+			(at 167.64 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1750,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 152.0952 44.45 0)
+			(at 164.7952 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1759,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 40.64 0)
+			(at 163.83 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "Description" "16V X7R 20% 1210 C3225X7R1C226M250AC"
-			(at 151.384 55.118 0)
+			(at 164.084 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +1784,7 @@
 		(instances
 			(project "project-hw-2-18650"
 				(path "/95204d1f-789d-4da7-bef1-75eceb67dba1/45d4dffe-c9fa-423c-b487-a1b451d8857b"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -1797,10 +1797,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c1d33f54-a70c-4897-be4e-87ad85a9fbdd")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 139.7 35.5599 0)
 			(effects
 				(font
@@ -1854,7 +1854,7 @@
 		(instances
 			(project ""
 				(path "/95204d1f-789d-4da7-bef1-75eceb67dba1/45d4dffe-c9fa-423c-b487-a1b451d8857b"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1862,7 +1862,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 163.83 40.64 0)
+		(at 176.53 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1870,7 +1870,7 @@
 		(dnp no)
 		(uuid "c6e3d946-01fa-4d50-8993-50871c2caf4a")
 		(property "Reference" "C7"
-			(at 167.64 39.3699 0)
+			(at 180.34 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1879,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 167.64 41.9099 0)
+			(at 180.34 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1888,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 164.7952 44.45 0)
+			(at 177.4952 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1897,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 40.64 0)
+			(at 176.53 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Description" "16V X7R 20% 1210 C3225X7R1C226M250AC"
-			(at 162.814 56.642 0)
+			(at 175.514 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2007,7 +2007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e298b934-f7fe-41bf-aa13-e00960eb133d")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 96.52 17.78 0)
 			(effects
 				(font
@@ -2077,7 +2077,7 @@
 		(instances
 			(project ""
 				(path "/95204d1f-789d-4da7-bef1-75eceb67dba1/45d4dffe-c9fa-423c-b487-a1b451d8857b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2085,15 +2085,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 40.64 0)
+		(at 151.13 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ee495b91-0be3-48c4-b1f5-f056ee870ebb")
-		(property "Reference" "C6"
-			(at 180.34 39.3699 0)
+		(property "Reference" "C5"
+			(at 154.94 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 180.34 41.9099 0)
+			(at 154.94 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2111,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 177.4952 44.45 0)
+			(at 152.0952 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2120,7 +2120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 40.64 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +2129,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 40.64 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2146,7 @@
 		(instances
 			(project "project-hw-2-18650"
 				(path "/95204d1f-789d-4da7-bef1-75eceb67dba1/45d4dffe-c9fa-423c-b487-a1b451d8857b"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
