@@ -1818,7 +1818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "SMD:0603_1608Metric_DNI_NoPaste"
 			(at 137.16 36.83 0)
 			(effects
 				(font
