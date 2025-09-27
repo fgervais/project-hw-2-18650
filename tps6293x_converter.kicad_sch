@@ -1681,7 +1681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
+		(property "Footprint" "Inductor:L_TDK_VLS6045EX_VLS6045AF"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -1700,7 +1700,7 @@
 			)
 		)
 		(property "Description" "VLS6045EX-6R8M"
-			(at 125.984 34.544 90)
+			(at 125.73 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+		(property "Footprint" "SOT:SOT-583-8"
 			(at 96.52 58.42 0)
 			(effects
 				(font
