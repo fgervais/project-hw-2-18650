@@ -596,6 +596,10 @@
     [
       "45d4dffe-c9fa-423c-b487-a1b451d8857b",
       "TPS6293x Converter"
+    ],
+    [
+      "a8262ffe-7689-48ae-80a6-3a0c7ff864c7",
+      "eFuse"
     ]
   ],
   "text_variables": {}
