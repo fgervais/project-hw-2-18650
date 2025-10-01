@@ -1064,7 +1064,6 @@
 			(uuid "b86dbd34-d542-4b99-9a38-8f6c5a242294")
 		)
 		(model "${KIPRJMOD}/kicad-library/3dmodels/8-PowerSOIC.step"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4769,8 +4768,30 @@
 		(uuid "fa71019f-8c4c-47dd-9fc9-be778a670762")
 	)
 	(gr_circle
-		(center 29 18.5)
-		(end 30.5 18.5)
+		(center 29.5 18.5)
+		(end 31 18.5)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "20659d49-e41c-4575-b978-4b06d3d58861")
+	)
+	(gr_rect
+		(start 28.5 17)
+		(end 29.5 20)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "93e05ffb-b10c-4d3e-8593-da08d42baf44")
+	)
+	(gr_circle
+		(center 28.5 18.5)
+		(end 30 18.5)
 		(stroke
 			(width 0)
 			(type solid)
