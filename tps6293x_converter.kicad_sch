@@ -1974,8 +1974,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V X7R 10% 1210 C3225X7R1H106K250AC"
-			(at 42.164 55.118 0)
+		(property "Description" "16V X7R 20% 1210 C3225X7R1C226M250AC"
+			(at 40.64 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
