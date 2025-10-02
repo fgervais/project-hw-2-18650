@@ -1325,13 +1325,14 @@
 		)
 		(uuid "2925bb60-d3a1-45de-99a7-264b441d7a46")
 	)
-	(text "52.3k = 5V"
+	(text "52.3k = 5V\n31.6k = 3.328V"
 		(exclude_from_sim no)
-		(at 199.644 22.606 0)
+		(at 192.786 22.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "2f2e3079-7c27-4936-be4a-af5cbe702ef6")
 	)

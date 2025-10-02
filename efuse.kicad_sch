@@ -1284,9 +1284,9 @@
 		)
 		(uuid "576fc919-65c6-46c0-a9c3-aa4488dc4d86")
 	)
-	(text "The upper voltage divider resistor (31.6k)\nis choosen because it is available in storage.\n\nI was aiming for 6V considering a 8V Vin.\nWhich would use a 33.333k resistor.\n\nWith a 31.6k and considering a reasonable\nVin of 7.4V Ven will be a safe 5.62V."
+	(text "31.6k, 7.5k: under-voltage at 5.73V\n2.87V per cell\n189uA quiescent current"
 		(exclude_from_sim no)
-		(at 20.828 59.944 0)
+		(at 21.844 52.832 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +1347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "7.5k"
 			(at 74.93 39.3699 0)
 			(effects
 				(font

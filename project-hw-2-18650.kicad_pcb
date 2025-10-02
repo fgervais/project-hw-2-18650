@@ -2354,7 +2354,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "7.5k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "3c4e3bc7-0dd5-4c87-9401-98f466d592c1")
@@ -4586,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Description" "50V X7R 10% 1210 C3225X7R1H106K250AC"
+		(property "Description" "16V X7R 20% 1210 C3225X7R1C226M250AC"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
