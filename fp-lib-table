@@ -5,4 +5,6 @@
   (lib (name "WAGO_2060-452-998-404")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/WAGO_2060-452-998-404")(options "")(descr ""))
   (lib (name "Inductor")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/Inductor.pretty")(options "")(descr ""))
   (lib (name "SMD")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/SMD.pretty")(options "")(descr ""))
+  (lib (name "SO")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/footprints/SO.pretty")(options "")(descr ""))
+  (lib (name "PTS810-SJM-250-SMTR-LFS")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/PTS810-SJM-250-SMTR-LFS")(options "")(descr ""))
 )
