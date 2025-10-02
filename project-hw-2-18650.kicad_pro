@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/project-hw-2-18650/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
