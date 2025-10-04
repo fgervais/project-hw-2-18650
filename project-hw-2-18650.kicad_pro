@@ -59,10 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "solder_mask_bridge|28848063|17000000|93e05ffb-b10c-4d3e-8593-da08d42baf44|eec50783-fdf5-4294-b98d-da04b0b251d1",
-        "solder_mask_bridge|28850000|18500000|20659d49-e41c-4575-b978-4b06d3d58861|eec50783-fdf5-4294-b98d-da04b0b251d1",
-        "solder_mask_bridge|28850000|18500000|bc757738-44f3-41e9-856f-26b140042150|eec50783-fdf5-4294-b98d-da04b0b251d1",
-        "text_thickness|23000000|28000000|fc24f508-c755-4b79-a4b7-cc80e67761e2|00000000-0000-0000-0000-000000000000"
+        "text_thickness|23000000|31000000|fc24f508-c755-4b79-a4b7-cc80e67761e2|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2

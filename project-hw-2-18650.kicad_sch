@@ -1126,6 +1126,36 @@
 		)
 		(uuid "fec6f97e-1456-458a-b119-7605a6854e84")
 	)
+	(label "efuse out"
+		(at 130.81 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b2d6298-1c3b-4861-83a6-260c37970ec4")
+	)
+	(label "buck out"
+		(at 162.56 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf168675-58a4-4b13-bc74-7266ae370876")
+	)
+	(label "pol out"
+		(at 99.06 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "daa80f75-8af4-44f9-a741-f5d3159b1161")
+	)
 	(symbol
 		(lib_id "2_cells:Battery_2_Cell")
 		(at 41.91 29.21 0)
