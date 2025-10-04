@@ -59,10 +59,7 @@
         }
       ],
       "drc_exclusions": [
-        "solder_mask_bridge|28848063|17000000|93e05ffb-b10c-4d3e-8593-da08d42baf44|eec50783-fdf5-4294-b98d-da04b0b251d1",
-        "solder_mask_bridge|28850000|18500000|20659d49-e41c-4575-b978-4b06d3d58861|eec50783-fdf5-4294-b98d-da04b0b251d1",
-        "solder_mask_bridge|28850000|18500000|bc757738-44f3-41e9-856f-26b140042150|eec50783-fdf5-4294-b98d-da04b0b251d1",
-        "text_thickness|23000000|28000000|fc24f508-c755-4b79-a4b7-cc80e67761e2|00000000-0000-0000-0000-000000000000"
+        "text_thickness|23000000|31000000|fc24f508-c755-4b79-a4b7-cc80e67761e2|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -546,11 +543,107 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -605,6 +698,10 @@
     [
       "a8262ffe-7689-48ae-80a6-3a0c7ff864c7",
       "eFuse"
+    ],
+    [
+      "998cc899-5668-4204-b0e7-385db79e613a",
+      "Reverse Polarity Protection"
     ]
   ],
   "text_variables": {}
