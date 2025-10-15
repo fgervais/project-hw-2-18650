@@ -341,7 +341,7 @@
 			)
 		)
 		(property "Value" "31.6k"
-			(at 0 1.43 -90)
+			(at 0 -1.5 -90)
 			(layer "F.Fab")
 			(uuid "9d9d8e20-ce32-4642-9db0-3439abdbd7b9")
 			(effects
@@ -555,7 +555,7 @@
 			)
 		)
 		(property "Value" "TPS259630"
-			(at 0 3.5 0)
+			(at -0.2 3.1 0)
 			(layer "F.Fab")
 			(uuid "515af59b-c3f0-4edb-b560-d7b3322f5a4a")
 			(effects
@@ -879,7 +879,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 0)
+			(at 3.7 0.05 0)
 			(layer "F.Fab")
 			(uuid "f5e1825e-8ea9-4efb-811b-b018e75f12a5")
 			(effects
@@ -1094,7 +1094,7 @@
 			)
 		)
 		(property "Value" "Vchoice"
-			(at 0 1.43 90)
+			(at -2.1 -0.9 180)
 			(layer "F.Fab")
 			(uuid "147a843a-93fb-4e1c-acb2-a8e3d6934793")
 			(effects
@@ -1297,7 +1297,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 0)
+			(at -4.15 -0.75 0)
 			(layer "F.Fab")
 			(uuid "78ea1a8c-d6b5-40ae-93e3-4ccdfc8041b9")
 			(effects
@@ -1511,7 +1511,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.43 0)
+			(at 0 1.2 0)
 			(layer "F.Fab")
 			(uuid "927636a1-c453-42b5-b479-363ef15d1e82")
 			(effects
@@ -1726,7 +1726,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 0 4 -90)
+			(at -0.2 -4.1 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0a190a8a-45c6-4ffe-8fc4-bb00add779ec")
@@ -1926,7 +1926,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at -0.9 3.2 180)
 			(layer "F.Fab")
 			(uuid "7c97abb4-cccb-4cb4-a9cb-6bca41a5b4c7")
 			(effects
@@ -2141,7 +2141,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at -1.7 0.5 0)
 			(layer "F.Fab")
 			(uuid "d070e65c-08ce-42e4-a32b-ec1b6f63ddd5")
 			(effects
@@ -2355,7 +2355,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 0)
+			(at -2.75 0.1 90)
 			(layer "F.Fab")
 			(uuid "0344ac1a-dc6a-4eca-afda-dc90041818cc")
 			(effects
@@ -2569,7 +2569,7 @@
 			)
 		)
 		(property "Value" "7.5k"
-			(at 0 1.43 90)
+			(at 0.6 -1.5 90)
 			(layer "F.Fab")
 			(uuid "3c4e3bc7-0dd5-4c87-9401-98f466d592c1")
 			(effects
@@ -2783,7 +2783,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 0 1.43 90)
+			(at -2.9 0 90)
 			(layer "F.Fab")
 			(uuid "96372d98-0a69-431a-bc61-8a52a6203bba")
 			(effects
@@ -2986,7 +2986,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 90)
+			(at 0.8 -3.2 180)
 			(layer "F.Fab")
 			(uuid "a20e024f-13b9-4063-b6a4-9077d742738d")
 			(effects
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at -1 -1.5 90)
 			(layer "F.Fab")
 			(uuid "3f32edaf-899c-4802-9a5b-7a5560a4e712")
 			(effects
@@ -3418,7 +3418,7 @@
 			)
 		)
 		(property "Value" "MM5Z5V1T5GF"
-			(at 0 2 90)
+			(at 0.5 -6 180)
 			(layer "F.Fab")
 			(uuid "e7ac4485-7227-4e00-a02a-60224b2d92e3")
 			(effects
@@ -3643,8 +3643,9 @@
 			(uuid "435841d9-5bd9-4342-b4b0-85f80d0d904c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 1.5 -4 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "467acdee-2719-461d-8d3b-24abb8f4d5a3")
 			(effects
 				(font
@@ -3707,7 +3708,7 @@
 			)
 		)
 		(property "Value" "TPS62933"
-			(at 0 2.8 0)
+			(at -10 4.9 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "b9e57321-7ae2-4930-9a02-16f3446ce060")
@@ -4015,7 +4016,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 0)
+			(at -0.7 1 0)
 			(layer "F.Fab")
 			(uuid "ea2e0b2a-a39d-4349-83f8-73913bcb4c94")
 			(effects
@@ -4227,7 +4228,7 @@
 			)
 		)
 		(property "Value" "PTS810_SJM_250_SMTR_LFS"
-			(at 13.91 2.665 0)
+			(at 12 2 90)
 			(layer "F.Fab")
 			(uuid "485a5c42-6883-48cb-8c9f-5d54055ec993")
 			(effects
@@ -4600,7 +4601,7 @@
 			)
 		)
 		(property "Value" "2060-452_998-404"
-			(at 6.085 5.835 0)
+			(at 2.3 4.9 0)
 			(layer "F.Fab")
 			(uuid "972c9a4f-871b-42d2-a462-1f71ae8fe605")
 			(effects
@@ -5052,7 +5053,7 @@
 			)
 		)
 		(property "Value" "Q_Toshiba_SSM3J328R"
-			(at 0 3 0)
+			(at 9.1 -3.7 0)
 			(layer "F.Fab")
 			(uuid "ce784133-c390-42ae-9a7e-1b962bb952fd")
 			(effects
