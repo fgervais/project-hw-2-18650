@@ -1325,7 +1325,7 @@
 		)
 		(uuid "2925bb60-d3a1-45de-99a7-264b441d7a46")
 	)
-	(text "52.3k = 5V\n31.6k = 3.328V"
+	(text "Vchoice\n\n52.3k = 5V\n31.6k = 3.328V"
 		(exclude_from_sim no)
 		(at 192.786 22.098 0)
 		(effects

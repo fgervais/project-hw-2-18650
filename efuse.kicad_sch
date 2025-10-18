@@ -937,7 +937,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 34.29) (xy 83.82 34.29)
+			(xy 72.39 34.29) (xy 85.09 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1057,7 +1057,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 34.29) (xy 83.82 27.94)
+			(xy 85.09 34.29) (xy 85.09 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1237,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 27.94) (xy 88.9 27.94)
+			(xy 85.09 27.94) (xy 88.9 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1275,9 +1275,9 @@
 		)
 		(uuid "fbba18fc-31a7-4409-b88f-586ab6d4a2e1")
 	)
-	(text "Rilm of 453 ohms for max Iout is not available right now\nso I will use a standard 470 ohms which will set the current\nlimit to 1.93A.\n\n470  -> 1.93A\n1k   -> 0.91A\n7.5k -> 132mA"
+	(text "Current limit\n\n470: 1.93A\n1k: 0.91A\n7.5k: 132mA"
 		(exclude_from_sim no)
-		(at 134.366 42.672 0)
+		(at 138.43 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1286,9 +1286,9 @@
 		)
 		(uuid "576fc919-65c6-46c0-a9c3-aa4488dc4d86")
 	)
-	(text "31.6k, 7.5k: under-voltage at 5.73V\n2.87V per cell\n189uA quiescent current"
+	(text "EN/UVLO\n\nR1: 100k\nR2: 22k\nCutoff: 6.1V\nQuiescent current: 61uA\n\nR1: 47k\nR2: 10.5k\nCutoff: 6.024V\nQuiescent current: \n\nR1: 56k\nR2: 12.7k\nCutoff: 5.95V\nQuiescent current: "
 		(exclude_from_sim no)
-		(at 21.844 52.832 0)
+		(at 21.59 65.532 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1349,7 +1349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "UVLO-R2"
 			(at 74.93 39.3699 0)
 			(effects
 				(font
@@ -1419,7 +1419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.6k"
+		(property "Value" "UVLO-R1"
 			(at 74.93 31.7499 0)
 			(effects
 				(font
@@ -1489,7 +1489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "Current limit"
 			(at 123.19 48.2599 0)
 			(effects
 				(font

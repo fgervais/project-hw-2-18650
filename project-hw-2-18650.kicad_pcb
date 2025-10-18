@@ -340,8 +340,8 @@
 				)
 			)
 		)
-		(property "Value" "31.6k"
-			(at 0 -1.5 -90)
+		(property "Value" "UVLO-R1"
+			(at -2.1 -3.6 45)
 			(layer "F.Fab")
 			(uuid "9d9d8e20-ce32-4642-9db0-3439abdbd7b9")
 			(effects
@@ -879,7 +879,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.7 0.05 0)
+			(at 2.6 0.05 0)
 			(layer "F.Fab")
 			(uuid "f5e1825e-8ea9-4efb-811b-b018e75f12a5")
 			(effects
@@ -1726,7 +1726,7 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at -0.2 -4.1 -90)
+			(at -0.2 -4.1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "0a190a8a-45c6-4ffe-8fc4-bb00add779ec")
@@ -2568,8 +2568,8 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
-			(at 0.6 -1.5 90)
+		(property "Value" "UVLO-R2"
+			(at 0.1 -4.4 180)
 			(layer "F.Fab")
 			(uuid "3c4e3bc7-0dd5-4c87-9401-98f466d592c1")
 			(effects
@@ -2782,9 +2782,10 @@
 				)
 			)
 		)
-		(property "Value" "470"
-			(at -2.9 0 90)
+		(property "Value" "Current limit"
+			(at -0.7 -0.9 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "96372d98-0a69-431a-bc61-8a52a6203bba")
 			(effects
 				(font
@@ -6231,6 +6232,45 @@
 					(xy 22.095317 23.416748) (xy 21.892107 23.416748) (xy 21.892107 23.3) (xy 22.095317 23.3)
 				)
 			)
+		)
+	)
+	(gr_text "EN/UVLO\n\nR1: 100k\nR2: 22k\nCutoff: 6.1V\nQuiescent current: 61uA\n\nR1: 47k\nR2: 10.5k\nCutoff: 6.024V\nQuiescent current: \n\nR1: 56k\nR2: 12.7k\nCutoff: 5.95V\nQuiescent current: "
+		(at 21 101 0)
+		(layer "F.Fab")
+		(uuid "39286b4e-334a-457c-b4a5-4f1cc04ba40f")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Current limit\n\n470: 1.93A\n1k: 0.91A\n7.5k: 132mA"
+		(at 57 74 0)
+		(layer "F.Fab")
+		(uuid "7e0ba54a-0b65-4357-8c16-90876dd2e123")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Vchoice\n\n52.3k = 5V\n31.6k = 3.328V"
+		(at 81 71 0)
+		(layer "F.Fab")
+		(uuid "f89d7be4-6f6b-4fe5-9484-dd5ba830bb98")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(via
