@@ -6247,6 +6247,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Max input voltage:\n- 19V eFuse\n- 20V P-MOSFET"
+		(at 57 88 0)
+		(layer "F.Fab")
+		(uuid "615260bd-847c-4a45-a25b-803022813b9b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Current limit\n\n470: 1.93A\n1k: 0.91A\n7.5k: 132mA"
 		(at 57 74 0)
 		(layer "F.Fab")
